@@ -11,7 +11,7 @@ namespace AHK_Script_Manager
             public bool isLeft, isTop, isRight, isBottom;
         }
 
-        private void PositionDatBitch(Form iEatAss)
+        private static void PositionDatBitch(Form iEatAss)
         {
             Rectangle primaryBounds = Screen.PrimaryScreen!.Bounds;
 
